@@ -84,6 +84,7 @@ li a:hover {
   text-align: center;
   transform: skewY(10deg);
   color: #000000
+
 }
 
 .content {
@@ -285,6 +286,7 @@ li a:hover {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding-bottom: 176px;
+
 }
 
 .code-gallery-container {
@@ -327,3 +329,139 @@ li a:hover {
 .gallery-item__image-container .loaded {
     opacity: 1;
 }
+
+@media (max-width: 768px) {
+.skewed-bg{
+  flex-direction: column;
+  overflow: hidden;
+}
+.gallery-container {
+
+  flex-wrap: wrap;
+  flex-direction: column;
+  order: 1;
+  width: 100%;
+}
+
+.photos-gallery-container {
+
+  flex-wrap: wrap;
+  flex-direction: column;
+  order: 1;
+  width: 100%;
+}
+
+.videos-gallery-container {
+
+  flex-wrap: wrap;
+  flex-direction: column;
+  order: 1;
+  width: 100%;
+}
+.code-gallery-container {
+
+  flex-wrap: wrap;
+  flex-direction: column;
+  order: 1;
+  width: 100%;
+}
+
+.gallery-item {
+
+  flex-wrap: wrap;
+  flex-direction: column;
+  order: 1;
+  width: 100%;
+
+}
+
+.gallery-item__image-container{
+
+  flex-wrap: wrap;
+  flex-direction: column;
+  order: 1;
+  width: 100%;
+}
+
+  .gallery-item__image-container .loaded{
+
+    flex-wrap: wrap;
+    flex-direction: column;
+    order: 1;
+    width: 100%;
+  }
+
+  .gallery-item:nth-child(3n + 2) {
+    transform: translateY(0rem)
+  }
+}
+
+  @media  (min-device-width: 320px)
+  and (max-device-width: 767px) {
+    .skewed-bg{
+      flex-direction: column;
+      overflow: hidden;
+      width: 100%
+    }
+    .gallery-container {
+
+      flex-wrap: wrap;
+      flex-direction: column;
+      order: 1;
+      width: 100%;
+    }
+
+    .photos-gallery-container {
+
+      flex-wrap: wrap;
+      flex-direction: column;
+      order: 1;
+      width: 100%;
+    }
+
+    .videos-gallery-container {
+
+      flex-wrap: wrap;
+      flex-direction: column;
+      order: 1;
+      width: 100%;
+    }
+    .code-gallery-container {
+
+      flex-wrap: wrap;
+      flex-direction: column;
+      order: 1;
+      width: 100%;
+    }
+
+    .gallery-item {
+
+      flex-wrap: wrap;
+      flex-direction: column;
+      order: 1;
+      width: 100%;
+
+    }
+
+    .gallery-item__image-container{
+
+      flex-wrap: wrap;
+      flex-direction: column;
+      order: 1;
+      width: 100%;
+    }
+
+      .gallery-item__image-container .loaded{
+
+        flex-wrap: wrap;
+        flex-direction: column;
+        order: 1;
+        width: 100%;
+      }
+
+      .gallery-item:nth-child(3n + 2) {
+        transform: translateY(-4.4rem)
+      }
+
+
+    }
