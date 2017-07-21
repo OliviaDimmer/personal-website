@@ -13,13 +13,15 @@ h2.subtitle {
 	color: white;
 }
 
-h3.sec-title {
+.sec-title {
 	font-family: "Helvetica Bold", Helvetica, Arial, sans-serif;
-	font-size: 34px;
+	font-size: 54px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 700;
 	color: black;
+	padding-bottom: 100px;
+
 }
 
 h4.bot-title {
@@ -42,8 +44,8 @@ p {
 	color: white;
 }
 
-body.background {
-	background-color: #000000;
+.background {
+	background-color: black;
 }
 
 .header{
@@ -184,17 +186,22 @@ li a:hover {
 .fa-code:hover {
 	color: #AD974F;
 }
-@media (max-width: 400px){
-	.middle-story{
-		margin-top: 0;
 
-	}
+.top-nav{
+
+float: right;
+text-align: right;
+
+}
+
+@media (max-width: 414px){
 
 
 }
 
 .middle-story{
 	margin-top: 100px;
+	margin-bottom: 100px;
 
 }
 
@@ -244,7 +251,7 @@ li a:hover {
 .gallery-container {
 	width: 100%;
 	margin: 0 auto;
-	padding-bottom: 176px;
+	padding-bottom: 70px;
 }
 
 .gallery-item {
